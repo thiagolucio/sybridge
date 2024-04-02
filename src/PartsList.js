@@ -46,13 +46,13 @@ function PartsList() {
         {filteredParts.map((part) => (
           <div className="listParts" key={part.id}>
             <div>
-              <h2>Identifier: {part.id}</h2>
+              <div className="idField asap-condensed-semibold">{part.id}</div>
               <h4>File name: {part.part_file.file_name}</h4>
               <h4>Units: {part.part_file.units}</h4>
-              <h3>Quantity: {part.quantity}</h3>
+              <h4>Quantity: {part.quantity}</h4>
             </div>
             <div className="buttons_container">
-              <Button variant="secondary" text="Delete" onClick={() => handleDelete(part.id)} />
+              <Button variant="error" text="Delete" onClick={() => handleDelete(part.id)} />
               {/* <button onClick={() => handleEdit(file.id)}>Edit</button> */}
             </div>
           </div>

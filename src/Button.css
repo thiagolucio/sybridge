@@ -14,7 +14,6 @@ button {
 button:hover {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    background-color: brown;
 }
 
 
@@ -23,8 +22,27 @@ button:hover {
     color: white;
 }
 
+.default:hover {
+    background-color: #047ecf;
+    color: white;
+}
+
 .secondary {
     background-color: #141618;
     color: white;
 }
 
+.secondary:hover {
+    background-color: #353f49;
+    color: white;
+}
+
+.error {
+    background-color: #f55c52;
+    color: white;
+}
+
+.error:hover {
+    background-color: #b61509;
+    color: white;
+}

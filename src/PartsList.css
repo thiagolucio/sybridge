@@ -5,17 +5,18 @@
 }
 
 .listParts {
-    background: #06a7e2;
+    background: #141618;
     padding: 2em;
     border-radius: 8px;
     margin: auto;
     margin-top: 3em;
     margin-bottom: 3em;
+    color: white;
 }
 
 .searchContainer {
     width: 100%;
-    background-Color: #333333;
+    background-Color: #141618;
     display: flex;
     justify-content: center;
 }
@@ -30,4 +31,21 @@
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
+}
+
+.idField {
+    width: 70px;
+    height: 70px;
+    font-size: 2em;
+    border-radius: 50em;
+    background-color: #06a7e2;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idField + * {
+    margin-top: 26px;    
 }

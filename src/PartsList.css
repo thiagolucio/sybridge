@@ -1,0 +1,33 @@
+.listPartsContainer {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.listParts {
+    background: #06a7e2;
+    padding: 2em;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.searchContainer {
+    width: 100%;
+    background-Color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.inputSearch {
+    padding: 1.5em;
+    min-width: 70%;
+    margin: 1.5em;
+    border-radius: 8px;
+    border: 1px solid #06a7e2;
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}

@@ -1,0 +1,30 @@
+button {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: brown;
+}
+
+
+.default {
+    background-color: #06a7e2;
+    color: white;
+}
+
+.secondary {
+    background-color: #141618;
+    color: white;
+}
+
